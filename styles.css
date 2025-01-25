@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0,0,0);
+}
+
+.thumbnail-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates 3 equal columns */
+    gap: 15px;
+}   
+    
+.thumbnail-image {
+    width: 100%;
+}
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+}
+
+.channel-icon {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.video-title, .channel-name-and-date {
+    color: white;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.channel-name-and-date {
+    color: rgb(170, 170, 170)
+}
