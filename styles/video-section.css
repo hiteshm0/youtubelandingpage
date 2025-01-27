@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates 3 equal columns */
     gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }   
     
 .thumbnail-image {
@@ -14,7 +18,8 @@
 }
 
 .video-title {
-    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .channel-icon {
