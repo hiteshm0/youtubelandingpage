@@ -10,16 +10,25 @@
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 1000;
 }
 
 .left-section {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .youtube-logo {
     width: 95px;
-    height: 50px;
     cursor: pointer;
 }
 
