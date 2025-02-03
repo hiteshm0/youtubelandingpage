@@ -10,8 +10,8 @@
 }
 
 .sidebar-icon {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 16px;
